@@ -82,12 +82,14 @@ public class task01 {
                         if (year % 4 == 0 && year % 400 != 0) {// 判断是否闰年
 
                             if (day > 29) {
+
                                 System.out.println("请输入合法日期");
                                 continue;
                             }
                         } else {
 
                             if (day > 28) {
+
                                 System.out.println("请输入合法日期");
                                 continue;
                             }
