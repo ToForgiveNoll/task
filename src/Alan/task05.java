@@ -13,6 +13,7 @@ public class task05 {
             for (int j = 0; j < 17; j++) {
 
                 if (i == 0 && j == 0) {
+
                     num[i][j] = " ";
                 } else if (i == 0 && j > 10) {
                     num[i][j] = ((char) (j - 1 + 87)) + ""; // 转化ASCII码中的小写字母
