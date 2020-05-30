@@ -7,5 +7,6 @@ public class task01 {
         int[] a = new int[]{100};
         a = new int[]{10, 10};
         System.out.println(a[0]);
+        System.out.println("");
     }
 }
